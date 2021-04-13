@@ -1,0 +1,56 @@
+body {
+  /*display: flex;*/
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+/*header {
+  height: 160px;
+  background-image: url(../images/iuc.png);
+}*/
+
+h1 {
+  color: #b22efa;
+}
+h2 {
+  color: #b22efa;
+}
+table {
+  border-spacing: 1px;
+}
+th,
+td {
+  padding: 5px 30px 5px 10px;
+  border-spacing: 0px;
+  font-size: 90%;
+  margin: 1px;
+}
+th,
+td {
+  text-align: left;
+  background-color: #ffffff;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  border-right: 1px solid #000000;
+}
+tr.head th {
+  color: green;
+}
+td {
+  text-shadow: 1px 1px 1px #ffffff;
+}
+tr.even td,
+tr.even th {
+  background-color: #e8f5ef;
+}
+tr.head th:first-child {
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  border-top-left-radius: 5px;
+}
+tr.head th:last-child {
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  border-top-right-radius: 5px;
+}
